@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фермерский базар</title>
+    <link rel="shortcut icon" href="cow.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="a-logo">
+        <img
+          src="assets/logo/logo_dark.svg"
+          alt="Логотип фермерский базар"
+          class="header-logo"
+        />
+      </a>
+      <a href="searchPage.html">
+        <button class="btn-catalog">
+          <img src="assets/icons/bars.svg" alt="Иконка меню каталога" />
+          <span class="catalog">Каталог</span>
+        </button>
+      </a>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Поиск" />
+        <button class="btn-search">Найти</button>
+      </div>
+      <a href="orders.html">
+        <div class="header-item">
+          <img src="assets/icons/box.svg" alt="Иконка коробки" />
+          <p>Заказы</p>
+        </div>
+      </a>
+      <a href="cart.html">
+        <div class="header-item">
+          <img src="assets/icons/basket-shopping.svg" alt="Иконка корзины" />
+          <p>Корзина</p>
+        </div>
+      </a>
+      <div id="profile">
+        <img src="assets/icons/user.svg" alt="Иконка пользователя" />
+      </div>
+    </header>
+    <main>
+      <hr />
+      <div class="cards-container"></div>
+      <hr />
+      <div class="product-pages">
+        <button id="prev">
+          <img
+            src="assets/icons/arrow-left.svg"
+            alt="Стрелка влево"
+          />Предыдущая
+        </button>
+        <div class="pages">
+          <button class="active">1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>...</button>
+          <button>5</button>
+        </div>
+        <button id="next">
+          Следующая
+          <img src="assets/icons/arrow-right.svg" alt="Стрелка вправо" />
+        </button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <img src="assets/logo/logo_light.svg" alt="Логотип фермерский базар" />
+        <div class="footer-menu-container">
+          <nav class="footer-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#">Главная</a></li>
+              <li class="nav-item"><a href="#">Каталог</a></li>
+              <li class="nav-item"><a href="orders.html">Заказы</a></li>
+              <li class="nav-item"><a href="cart.html">Корзина</a></li>
+              <li class="nav-item"><a href="#">Профиль</a></li>
+            </ul>
+          </nav>
+          <hr />
+          <div class="footer-info">
+            <div>
+              <a href="#">Политика конфиденциальности</a>
+              |
+              <a href="#">Согласие на обработку персональных данных</a>
+            </div>
+            © 2025 Интернет-магазин Фермерский базар
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

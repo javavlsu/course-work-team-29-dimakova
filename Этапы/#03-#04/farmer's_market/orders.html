@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Заказы</title>
+    <link rel="shortcut icon" href="cow.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/orders.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="a-logo">
+        <img
+          src="assets/logo/logo_dark.svg"
+          alt="Логотип фермерский базар"
+          class="header-logo"
+        />
+      </a>
+      <a href="searchPage.html">
+        <button class="btn-catalog">
+          <img src="assets/icons/bars.svg" alt="Иконка меню каталога" />
+          <span class="catalog">Каталог</span>
+        </button>
+      </a>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Поиск" />
+        <button class="btn-search">Найти</button>
+      </div>
+      <a href="#">
+        <div class="header-item">
+          <img src="assets/icons/box.svg" alt="Иконка коробки" />
+          <p>Заказы</p>
+        </div>
+      </a>
+      <a href="cart.html">
+        <div class="header-item">
+          <img src="assets/icons/basket-shopping.svg" alt="Иконка корзины" />
+          <p>Корзина</p>
+        </div>
+      </a>
+      <div id="profile">
+        <img src="assets/icons/user.svg" alt="Иконка пользователя" />
+      </div>
+    </header>
+    <main>
+      <hr />
+      <nav class="navigation">
+        <a href="index.html">Главная</a>\<a href="orders.html">Заказы</a>
+      </nav>
+      <h1>Заказы</h1>
+      <div class="cards-container">
+        <div class="card">
+          <img src="assets/jam.png" alt="Фото товара" />
+          <div class="info">
+            <div class="card-info-item">300 ₽</div>
+            <div class="card-info-item">
+              <img src="assets/icons/star.svg" alt="Иконка звезды" /> 4.8
+            </div>
+          </div>
+          <a href="product.html">
+            <h3 class="card-header">Варенье кабачковое с лимоном</h3>
+          </a>
+          <p class="green-status">Статус товара</p>
+        </div>
+        <div class="card">
+          <img src="assets/yogurt.png" alt="Фото товара" />
+          <div class="info">
+            <div class="card-info-item">100 ₽</div>
+            <div class="card-info-item">
+              <img src="assets/icons/star.svg" alt="Иконка звезды" /> 5.0
+            </div>
+          </div>
+          <a href="product.html">
+            <h3 class="card-header">Йогурт питьевой малиновый</h3>
+          </a>
+          <p class="red-status">Статус товара</p>
+        </div>
+        <div class="card">
+          <img src="assets/yogurt.png" alt="Фото товара" />
+          <div class="info">
+            <div class="card-info-item">100 ₽</div>
+            <div class="card-info-item">
+              <img src="assets/icons/star.svg" alt="Иконка звезды" /> 5.0
+            </div>
+          </div>
+          <a href="product.html">
+            <h3 class="card-header">Йогурт питьевой малиновый</h3>
+          </a>
+          <p class="grey-status">Статус товара</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <img src="assets/logo/logo_light.svg" alt="Логотип фермерский базар" />
+        <div class="footer-menu-container">
+          <nav class="footer-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="#">Каталог</a></li>
+              <li class="nav-item"><a href="#">Заказы</a></li>
+              <li class="nav-item"><a href="cart.html">Корзина</a></li>
+              <li class="nav-item"><a href="#">Профиль</a></li>
+            </ul>
+          </nav>
+          <hr />
+          <div class="footer-info">
+            <div>
+              <a href="#">Политика конфиденциальности</a>
+              |
+              <a href="#">Согласие на обработку персональных данных</a>
+            </div>
+            © 2025 Интернет-магазин Фермерский базар
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
