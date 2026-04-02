@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина</title>
+    <link rel="shortcut icon" href="cow.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="a-logo">
+        <img
+          src="assets/logo/logo_dark.svg"
+          alt="Логотип фермерский базар"
+          class="header-logo"
+        />
+      </a>
+      <a href="searchPage.html">
+        <button class="btn-catalog">
+          <img src="assets/icons/bars.svg" alt="Иконка меню каталога" />
+          <span class="catalog">Каталог</span>
+        </button>
+      </a>
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Поиск" />
+        <button class="btn-search">Найти</button>
+      </div>
+      <a href="orders.html">
+        <div class="header-item">
+          <img src="assets/icons/box.svg" alt="Иконка коробки" />
+          <p>Заказы</p>
+        </div>
+      </a>
+      <a href="cart.html">
+        <div class="header-item">
+          <img src="assets/icons/basket-shopping.svg" alt="Иконка корзины" />
+          <p>Корзина</p>
+        </div>
+      </a>
+      <div id="profile">
+        <img src="assets/icons/user.svg" alt="Иконка пользователя" />
+      </div>
+    </header>
+    <main>
+      <hr />
+      <nav class="navigation">
+        <a href="index.html">Главная</a>\<a href="cart.html">Корзина</a>
+      </nav>
+      <div class="cont">
+        <h1>Корзина</h1>
+        <button class="red-btn">
+          Очистить корзину<img src="assets/icons/trash.svg" alt="" />
+        </button>
+      </div>
+      <div class="main-container">
+        <div class="cart-items">
+          <div class="cart-item">
+            <div class="cont">
+              <div class="info-item">
+                <img src="assets/jam.png" alt="" />
+                <div class="info">
+                  <h3>Варенье кабачковое с лимоном</h3>
+                  <div class="card-info-item">100 ₽</div>
+                </div>
+              </div>
+              <div class="controls">
+                <div class="card-btn-container cart-btn-container">
+                  <button class="card-btn-small">-</button>
+                  <span class="count">1 шт.</span>
+                  <button class="card-btn-small">+</button>
+                </div>
+                <button class="trash">
+                  <img src="assets/icons/trash_dark.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <hr class="item-line" />
+          </div>
+          <div class="cart-item">
+            <div class="cont">
+              <div class="info-item">
+                <img src="assets/yogurt.png" alt="" />
+                <div class="info">
+                  <h3>Йогурт питьевой малиновый</h3>
+                  <div class="card-info-item">1050 ₽</div>
+                </div>
+              </div>
+              <div class="controls">
+                <div class="card-btn-container cart-btn-container">
+                  <button class="card-btn-small">-</button>
+                  <span class="count">1 шт.</span>
+                  <button class="card-btn-small">+</button>
+                </div>
+                <button class="trash">
+                  <img src="assets/icons/trash_dark.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <hr class="item-line" />
+          </div>
+          <div class="cart-item">
+            <div class="cont">
+              <div class="info-item">
+                <img src="assets/jam.png" alt="" />
+                <div class="info">
+                  <h3>Варенье кабачковое с лимоном</h3>
+                  <div class="card-info-item">100 ₽</div>
+                </div>
+              </div>
+              <div class="controls">
+                <div class="card-btn-container cart-btn-container">
+                  <button class="card-btn-small">-</button>
+                  <span class="count">1 шт.</span>
+                  <button class="card-btn-small">+</button>
+                </div>
+                <button class="trash">
+                  <img src="assets/icons/trash_dark.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <hr class="item-line" />
+          </div>
+          <div class="cart-item">
+            <div class="cont">
+              <div class="info-item">
+                <img src="assets/yogurt.png" alt="" />
+                <div class="info">
+                  <h3>Йогурт питьевой малиновый</h3>
+                  <div class="card-info-item">1050 ₽</div>
+                </div>
+              </div>
+              <div class="controls">
+                <div class="card-btn-container cart-btn-container">
+                  <button class="card-btn-small">-</button>
+                  <span class="count">1 шт.</span>
+                  <button class="card-btn-small">+</button>
+                </div>
+                <button class="trash">
+                  <img src="assets/icons/trash_dark.svg" alt="" />
+                </button>
+              </div>
+            </div>
+            <hr class="item-line" />
+          </div>
+        </div>
+        <div class="summ">
+          <div class="cont">
+            <span class="result-text">Кол-во товаров</span>
+            <span class="result-text">4</span>
+          </div>
+          <hr class="result-line" />
+          <div class="cont res">
+            <span class="result">Итог</span>
+            <span class="result">=4200₽</span>
+          </div>
+          <button class="card-btn">Заказать</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <img src="assets/logo/logo_light.svg" alt="Логотип фермерский базар" />
+        <div class="footer-menu-container">
+          <nav class="footer-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="index.html">Главная</a></li>
+              <li class="nav-item"><a href="#">Каталог</a></li>
+              <li class="nav-item"><a href="orders.html">Заказы</a></li>
+              <li class="nav-item"><a href="cart.html">Корзина</a></li>
+              <li class="nav-item"><a href="#">Профиль</a></li>
+            </ul>
+          </nav>
+          <hr />
+          <div class="footer-info">
+            <div>
+              <a href="#">Политика конфиденциальности</a>
+              |
+              <a href="#">Согласие на обработку персональных данных</a>
+            </div>
+            © 2025 Интернет-магазин Фермерский базар
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

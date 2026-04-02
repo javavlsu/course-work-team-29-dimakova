@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+:root {
+  --font-family: "Onest", sans-serif;
+  --grey-color: #3e3c4c;
+  --green-color: #209d38;
+  --light-grey: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+}
+
+footer {
+  margin-top: auto;
+  background: #13121c;
+  padding: 40px 0;
+}
+
+.footer-container {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-container img {
+  width: 272px;
+  height: 106px;
+}
+
+.footer-menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+hr {
+  border: 0.84px solid rgba(255, 255, 255, 0.3);
+  width: 660px;
+  height: 0px;
+}
+
+.footer-menu-container nav a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer-menu-container nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.footer-menu-container nav {
+  display: flex;
+  justify-content: end;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info div {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-info div a,
+.footer-info div,
+.footer-info {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}

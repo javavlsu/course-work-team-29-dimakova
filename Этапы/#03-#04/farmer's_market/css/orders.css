@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+:root {
+  --font-family: "Onest", sans-serif;
+  --grey-color: #3e3c4c;
+  --green-color: #209d38;
+  --light-grey: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.green-status {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--green-color);
+}
+
+.red-status {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #bb2d3b;
+}
+
+.grey-status {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(62, 60, 76, 0.5);
+}
+
+/* NAV */
+
+.navigation {
+  margin: 30px 0;
+  display: flex;
+  gap: 5px;
+}
+
+.navigation,
+.navigation a {
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: rgba(62, 60, 76, 0.5);
+}

@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+
+:root {
+  --font-family: "Onest", sans-serif;
+  --grey-color: #3e3c4c;
+  --green-color: #209d38;
+  --light-grey: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN */
+
+main {
+  width: 1000px;
+  margin: 0 auto 60px auto;
+}
+
+main hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  height: 0px;
+}
+
+.cards-container {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+/* CARD */
+
+.card {
+  border-radius: 10px;
+  width: 235px;
+  height: 446px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-info-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--grey-color);
+}
+
+.card-header {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--grey-color);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card-btn-container {
+  border-radius: 5px;
+  width: 233px;
+  height: 34px;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 82px;
+  width: 236px;
+  height: 34px;
+  background: var(--green-color);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  background: #1abe39;
+}
+
+.card-btn-small {
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--green-color);
+  padding: 0 20px;
+  background: none;
+}
+
+.count {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--green-color);
+}
+
+.card-btn-small:hover {
+  cursor: pointer;
+}
+
+/* product pages */
+
+button:hover {
+  cursor: pointer;
+}
+
+.product-pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+#prev,
+#next {
+  border: none;
+  background: none;
+  display: flex;
+  gap: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--grey-color);
+}
+
+.pages {
+  display: flex;
+  gap: 10px;
+}
+
+.pages button {
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--grey-color);
+  border-radius: 5px;
+  padding: 10px;
+  width: 34px;
+  height: 34px;
+  background: var(--light-grey);
+}
+
+.pages .active {
+  background: var(--green-color);
+  color: #fff;
+}
+
+/* H1 */
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--grey-color);
+}
+
+/* SEARCH RESULT */
+
+.filter {
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 150px;
+
+  background: var(--grey-color);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+
+.filter:active {
+  border: none;
+}
+
+.filter-container {
+  margin: 40px 0 25px 0;
+}
